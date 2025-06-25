@@ -17,6 +17,7 @@
 - CSS3
 
 ## 📁 Struktur Folder
+```
 belajar-koding/
 ├── index.html
 ├── login.html
@@ -26,7 +27,7 @@ belajar-koding/
 ├── asset/
 │ └── gambar/
 │ └── css/
-
+```
 
 ## 🎓 Tujuan Proyek
 
