@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'JetBrains Mono', monospace;
+  background-color: #121212;
+  color: #EEEEEE;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+/* Navbar */
+.navbar {
+  background: #1F1F1F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00BFFF;
+}
+
+.logo span {
+  color: #03DAC5;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar a {
+  color: #EEEEEE;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: #03DAC5;
+}
+
+/* Profil Pribadi */
+.profile-card {
+  background-color: #2A2A2A;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+.profile-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #03DAC5;
+}
+
+.profile-info h3 {
+  margin-bottom: 0.5rem;
+  color: #03DAC5;
+}
+
+.profile-info p {
+  margin: 0.2rem 0;
+  color: #CCCCCC;
+}
+
+.profile-info a {
+  color: #00BFFF;
+  text-decoration: none;
+}
+
+.profile-info a:hover {
+  text-decoration: underline;
+}
+
+
+/* Kontak Section */
+.kontak-section {
+  padding: 3rem 2rem;
+  background-color: #1E1E1E;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.kontak-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #00BFFF;
+  text-align: center;
+}
+
+.kontak-section .intro {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #CCCCCC;
+}
+
+.kontak-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.kontak-form label {
+  font-weight: bold;
+  color: #AAAAAA;
+}
+
+.kontak-form input,
+.kontak-form textarea {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #2A2A2A;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.kontak-form input::placeholder,
+.kontak-form textarea::placeholder {
+  color: #888888;
+}
+
+.btn-kirim {
+  background-color: #00BFFF;
+  color: #121212;
+  padding: 0.75rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-kirim:hover {
+  background-color: #03A9F4;
+}
+
+/* Footer */
+footer {
+  background: #1F1F1F;
+  color: #888;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+
+footer a {
+  color: #03DAC5;
+  text-decoration: none;
+}

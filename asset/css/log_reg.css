@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'JetBrains Mono', monospace;
+  height: 100vh;
+  background: linear-gradient(rgba(18,18,18, 0.9), rgba(18,18,18, 0.9)), url('../gambar/bg-login.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #EEEEEE;
+}
+
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+
+.auth-form {
+  background-color: #1E1E1E;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  width: 100%;
+  max-width: 400px;
+  color: #E0F7FA;
+}
+
+.auth-form h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #00BFFF;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #2E2E2E;
+  color: #EEEEEE;
+}
+
+.auth-form input:focus {
+  outline: 2px solid #00BFFF;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #00BFFF;
+  border: none;
+  color: #121212;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.auth-form button:hover {
+  background-color: #03A9F4;
+}
+
+.auth-form p {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.auth-form a {
+  color: #03DAC5;
+  text-decoration: none;
+}
+
+.back-home-wrap {
+  text-align: center; 
+  margin-top: 1rem;
+}
+
+.back-home {
+  color: #03DAC5;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.back-home:hover {
+  color: #00BFFF;
+}
