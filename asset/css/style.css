@@ -6,10 +6,11 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
+  height: 100%;
+  font-family: 'JetBrains Mono', monospace;
   background-color: #121212;
   color: #EEEEEE;
-  font-family: 'JetBrains+Mono', monospace;
 }
 
 /* Navbar */
@@ -30,6 +31,7 @@ body {
   font-weight: bold;
   color: #00BFFF;
 }
+
 .logo span {
   color: #03DAC5;
 }
@@ -45,6 +47,7 @@ body {
   text-decoration: none;
   transition: color 0.2s;
 }
+
 .navbar a:hover {
   color: #03DAC5;
 }
