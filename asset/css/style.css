@@ -105,65 +105,6 @@ html, body {
   background-color: #03A9F4;
 }
 
-/* Kelas Section */
-.kelas-section {
-  padding: 3rem 2rem;
-  background-color: #1E1E1E;
-  text-align: center;
-}
-
-.kelas-section h2 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  color: #00BFFF;
-}
-
-.kelas-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-}
-
-.kelas-card {
-  background: #2A2A2A;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
-  text-align: left;
-}
-
-.kelas-card img {
-  width: 100%;
-  border-radius: 8px;
-  margin-bottom: 1rem;
-}
-
-.kelas-card h3 {
-  color: #03DAC5;
-  margin-bottom: 0.5rem;
-}
-
-.kelas-card p {
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
-  color: #CCCCCC;
-}
-
-.btn-card {
-  display: inline-block;
-  background-color: #00BFFF;
-  color: #121212;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  border-radius: 4px;
-  font-weight: bold;
-  transition: background 0.2s;
-}
-
-.btn-card:hover {
-  background-color: #03A9F4;
-}
-
 /* Footer */
 footer {
   background: #1F1F1F;
@@ -177,6 +118,3 @@ footer a {
   color: #03DAC5;
   text-decoration: none;
 }
-
-
-
